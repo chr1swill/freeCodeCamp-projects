@@ -6,7 +6,7 @@
 
 // else remove all item except for the first three array items 
 
-function nonMutaitngsSplice(cities) {
+function nonMutatingSplice(cities) {
     if ( 3 <=  cities.length) {
         return cities;
     } else {
