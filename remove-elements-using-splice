@@ -7,8 +7,12 @@
 // else remove all item except for the first three array items 
 
 function nonMutaitngsSplice(cities) {
-    if ( 3 =cities.length) {
-        
+    if ( 3 <=  cities.length) {
+        return cities;
+    } else {
+        return cities.slice(0,2);
     }
+    
+    
     
     }
