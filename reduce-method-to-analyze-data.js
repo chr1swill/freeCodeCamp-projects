@@ -6,4 +6,8 @@
 
 // if it is not move on to thr next one
 
-// if it is 
+// if it is add it to the array 
+
+// finnd thr sum of the imdb rrating arrayy and divide it by the arrays length 
+
+function (getRating)
