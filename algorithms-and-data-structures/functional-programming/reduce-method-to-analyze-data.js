@@ -14,7 +14,9 @@ function getRating(watchList) {
    
    const directedByChris = watchList.filter((movie) => movie.Director === "Christopher Nolan");
    
-   const sumOfRating = directedByChris.reduce((sum, movie) => sum + movie.Director);
+   const stringsToNumbers = Number(directedByChris);
+   
+   const sumOfRating = stringsToNumbers.reduce((sum, movie) => sum + movie.Director);
    
    return sumOfRating / directedByChris.length;
 }
