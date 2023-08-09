@@ -16,7 +16,7 @@ function getRating(watchList) {
    
    const stringsToNumber = directedByChris.map(movie => Number(movie.imdbRating));
    
-   const sumOfRating = stringsToNumbers.reduce((sum, stringsToNumber) => sum + stringsToNumber, 0 );
+   const sumOfRating = stringsToNumber.reduce((sum, stringsToNumber) => sum + stringsToNumber, 0 );
    
    return sumOfRating / directedByChris.length;
 }
