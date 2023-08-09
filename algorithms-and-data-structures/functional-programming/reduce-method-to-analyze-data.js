@@ -14,9 +14,9 @@ function getRating(watchList) {
    
    const directedByChris = watchList.filter((movie) => movie.Director === "Christopher Nolan");
    
-   const stringsToNumbers = Number(...directedByChris);
+   const stringsToNumber = directedByChris.map(movie => Number(movie.imdbRating));
    
-   const sumOfRating = stringsToNumbers.reduce((sum, movie) => sum + movie.Director, 0 );
+   const sumOfRating = stringsToNumbers.reduce((sum, stringsToNumber) => sum + stringsToNumber, 0 );
    
    return sumOfRating / directedByChris.length;
 }
