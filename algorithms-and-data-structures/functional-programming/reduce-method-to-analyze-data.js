@@ -10,11 +10,11 @@
 
 // find thr sum of the imdb rating array and divide it by the arrays length 
 
-function (getRating) {
-    const arrayOfRatings = [];
+function getRating(watchList) {
    
    const directedByChris = watchList.filter(watchList.Director === "Christopher Nolan");
-   const averageRating = directedByChris.reduce((sum, director) => )
    
-    
+   const sumOfRating = directedByChris.reduce((sum, movie) => sum + movie.Director);
+   
+   return sumOfRating / directedByChris.length;
 }
