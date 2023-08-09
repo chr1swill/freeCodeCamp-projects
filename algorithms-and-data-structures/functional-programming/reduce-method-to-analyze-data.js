@@ -8,6 +8,6 @@
 
 // if it is add it to the array 
 
-// finnd thr sum of the imdb rrating arrayy and divide it by the arrays length 
+// find thr sum of the imdb rating array and divide it by the arrays length 
 
 function (getRating)
