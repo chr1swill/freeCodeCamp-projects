@@ -11,4 +11,4 @@ newArr = [1,2,3,4,5]
 
 let data = alphabeticalOrder(newArr);
 
-console.log(data)
+console.log(data);
