@@ -3,7 +3,7 @@
 
 function alphabeticalOrder(arr) {
     return arr.sort((a,b) => 
-        (a < b) ? (a===b) ? 1 : -1
+        (a < b) ? (a===b) ? 1 : -1;
     );
 }
 
