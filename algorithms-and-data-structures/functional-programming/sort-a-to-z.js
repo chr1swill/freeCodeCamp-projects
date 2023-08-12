@@ -9,4 +9,6 @@ function alphabeticalOrder(arr) {
 
 newArr = [1,2,3,4,5]
 
-alphabeticalOrder(newArr);
+let data = alphabeticalOrder(newArr);
+
+console.log(data)
