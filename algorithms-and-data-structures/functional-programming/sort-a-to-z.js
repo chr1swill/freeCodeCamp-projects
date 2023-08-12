@@ -8,7 +8,7 @@ function alphabeticalOrder(arr) {
 }
 
 //make arr letters 
-newArr = [1,3,14,5]
+newArr = ['a','f','z','w']
 
 
 let data = alphabeticalOrder(newArr);
