@@ -2,9 +2,8 @@
 
 
 function alphabeticalOrder(arr) {
-    return arr.sort((a,b) => {
-         a.localCompare(b);
-    });
+    return arr.sort((a,b) => 
+         a.localCompare(b));
 }
 
 //make arr letters 
