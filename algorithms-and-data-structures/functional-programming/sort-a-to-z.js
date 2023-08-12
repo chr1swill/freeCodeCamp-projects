@@ -6,3 +6,7 @@ function alphabeticalOrder(arr) {
         a =< b ? 1 : -1
     })
 }
+
+newArr = [1,2,3,4,5]
+
+alphabeticalOrder(newArr);
