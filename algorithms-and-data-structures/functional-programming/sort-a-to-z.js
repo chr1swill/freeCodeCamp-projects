@@ -2,7 +2,7 @@
 
 
 function alphabeticalOrder(arr) {
-    return arr.sort((a,b) => 
+    return arr.sort((a, b) => 
          a.localCompare(b));
 }
 
