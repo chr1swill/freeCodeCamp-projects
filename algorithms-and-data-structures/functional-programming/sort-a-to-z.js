@@ -7,7 +7,7 @@ function alphabeticalOrder(arr) {
     });
 }
 
-newArr = [1,2,3,4,5]
+newArr = [1,3,14,5]
 
 let data = alphabeticalOrder(newArr);
 
