@@ -8,7 +8,7 @@ const arr = [1,2.3,-4,-5.6]
     
  const positiveIntegers = arr.filter((index) => Number.isInteger(index) && index > 0);
     
-const toPowerTwo = positiveIntegers.map((index) => index.Math(pow, 2))
+const toPowerTwo = positiveIntegers.map((index) => Math.pow(index, 2))
     
 console.log(positiveIntegers)
 console.log(toPowerTwo)
