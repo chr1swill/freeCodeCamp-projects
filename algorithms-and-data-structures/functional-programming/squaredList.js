@@ -6,4 +6,4 @@
 
 const squaredList = arr => {
     const positiveIntegers = arr.filter((index) Number.isInteger(index) && index > 0)
-    consol
+    console.log(positiveIntegers([1.7, 6, -5, -1.2]))
