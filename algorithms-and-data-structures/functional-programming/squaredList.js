@@ -9,4 +9,7 @@ const arr = [1,2.3,-4,-5.6]
  const positiveIntegers = arr.filter((index) => Number.isInteger(index) && index > 0);
     
     
+console.log(positiveIntegers)
+console.log(arr)
 
+const 
