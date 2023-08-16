@@ -4,5 +4,9 @@
 
 // take that new array and create another array with thr left over number to the power of 2 
 
-const squaredList = arr => {
-    const positiveIntegers = arr.filter((index) => Number.isInteger(index) && index > 0);
+const arr = [1,2.3,-4,-5.6]
+    
+ const positiveIntegers = arr.filter((index) => Number.isInteger(index) && index > 0);
+    
+    
+
