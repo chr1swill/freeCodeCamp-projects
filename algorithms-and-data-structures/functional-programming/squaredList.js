@@ -11,7 +11,7 @@ const arr = [2,2.3,-4,-5.6]
 //const toPowerTwo = positiveIntegers.map((index) => Math.pow(index, 2))
     
 const positiveIntegers = array => array.filter((index) => Number.isInteger(index) && index > 0);
-const toPowerTwo = array => array.map((index) => Math.pow(index, 2);
+const toPowerTwo = array => array.map((index) => Math.pow(index, 2));
 
 const getPositiveIntegers = positiveIntegers(arr);
 const getPostivesToPowerTwo = toPowerTwo(getPositiveIntegers)
