@@ -29,8 +29,7 @@ const titleToLowerCase = setToLowerCase(title);
 
 const splitTitle = setToArrayOfWords(titleToLowerCase);
 
-const withDashAtEnd = 
-addDashToEnd(splitTitle);
+const withDashAtEnd = addDashToEnd(splitTitle);
 
 console.log(withDashAtEnd);
 
