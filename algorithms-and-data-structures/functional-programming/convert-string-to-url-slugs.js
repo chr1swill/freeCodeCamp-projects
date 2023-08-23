@@ -16,7 +16,7 @@ const setToArrayOfWords = (string) => {
 }
 
 const addDashToEnd = (string) => {
-    string.map((word, index) => {
+    return string.map((word, index) => {
         if (index < word.length) {
             return word + "-";
         } else {
