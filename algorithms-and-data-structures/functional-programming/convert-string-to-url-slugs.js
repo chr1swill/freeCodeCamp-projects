@@ -13,4 +13,5 @@ const setToLowerCase = (string) => {
 
 const titleToLowerCase = setToLowerCase(title);
 
+console.log(titleToLowerCase)
 
