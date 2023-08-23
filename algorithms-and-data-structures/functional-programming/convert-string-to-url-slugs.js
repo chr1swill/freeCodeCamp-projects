@@ -11,7 +11,13 @@ const setToLowerCase = (string) => {
   return string.toLowerCase();
 };
 
+const setToArrayOfWords = (string) => {
+    return string.split(" ");
+}
+
 const titleToLowerCase = setToLowerCase(title);
 
-titleToLowerCase()
+const splitTitle = setToArrayOfWords(titleToLowerCase);
+
+console.log(splitTitle)
 
