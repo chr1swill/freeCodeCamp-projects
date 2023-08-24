@@ -25,12 +25,19 @@ const addDashToEnd = (array) => {
     })    
 }
 
+const joinedArray = (array) => {
+    return array.join("");
+}
+
 const titleToLowerCase = setToLowerCase(title);
 
 const splitTitle = setToArrayOfWords(titleToLowerCase);
 
 const withDashAtEnd = addDashToEnd(splitTitle);
 
-console.log(splitTitle)
+const urlSlug = joinedArray(withDashAtEnd);
+
+console.log(splitTitle);
 console.log(withDashAtEnd);
+console.log(urlSlug);
 
