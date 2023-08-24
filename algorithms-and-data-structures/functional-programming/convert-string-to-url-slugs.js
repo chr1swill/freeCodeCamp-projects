@@ -12,8 +12,8 @@ const setToLowerCase = (string) => {
 };
 
 const setToArrayOfWords = (string) => {
-    return string.split(" ");
-}
+  return string.split(" ");
+};
 
 const addDashToEnd = (array) => {
   return array.map((word, index) => {
@@ -26,8 +26,8 @@ const addDashToEnd = (array) => {
 };
 
 const joinedArray = (array) => {
-    return array.join("");
-}
+  return array.join("");
+};
 
 const titleToLowerCase = setToLowerCase(title);
 
@@ -40,4 +40,3 @@ const urlSlug = joinedArray(withDashAtEnd);
 console.log(splitTitle);
 console.log(withDashAtEnd);
 console.log(urlSlug);
-
