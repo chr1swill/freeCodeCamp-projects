@@ -30,11 +30,8 @@ const joinedArray = (array) => {
 };
 
 const titleToLowerCase = setToLowerCase(title);
-
 const splitTitle = setToArrayOfWords(titleToLowerCase);
-
 const withDashAtEnd = addDashToEnd(splitTitle);
-
 const urlSlug = joinedArray(withDashAtEnd);
 
 console.log(splitTitle);
