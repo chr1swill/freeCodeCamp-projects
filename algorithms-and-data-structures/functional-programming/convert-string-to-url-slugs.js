@@ -5,7 +5,7 @@
 // if not on the last one add the index + "-" to array
 // take that new array and run join.("")
 
-const title = "A Mind Needs Books Like A Sword Needs A Whetstone";
+const title = " Winter Is  Coming";
 
 const setToLowerCase = (string) => {
   return string.toLowerCase();
@@ -17,7 +17,7 @@ const setToArrayOfWords = (string) => {
 
 const addDashToEnd = (array) => {
   return array.map((word, index) => {
-    if (index === 0 || index === array.length - 1 || word === "") {
+    if (index === array.length - 1 || word === "") {
       return word;
     } else {
       return word + "-";
