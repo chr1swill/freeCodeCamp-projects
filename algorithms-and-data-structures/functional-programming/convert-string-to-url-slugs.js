@@ -15,9 +15,9 @@ const setToArrayOfWords = (string) => {
     return string.split(" ");
 }
 
-const addDashToEnd = (string) => {
-    return string.map((word, index) => {
-        if (index < word.length) {
+const addDashToEnd = (array) => {
+    return array.map((word, index) => {
+        if (index < word.length - 1) {
             return word + "-";
         } else {
             return word;
@@ -29,7 +29,8 @@ const titleToLowerCase = setToLowerCase(title);
 
 const splitTitle = setToArrayOfWords(titleToLowerCase);
 
-const withDashAtEnd = addDashToEnd(title);
+const withDashAtEnd = addDashToEnd(splitTitle);
 
+console.log(splitTitle)
 console.log(withDashAtEnd);
 
