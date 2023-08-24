@@ -16,14 +16,14 @@ const setToArrayOfWords = (string) => {
 }
 
 const addDashToEnd = (array) => {
-    return array.map((word, index) => {
-        if (index < array.length - 1) {
-            return word + "-";
-        } else {
-            return word;
-        }
-    })    
-}
+  return array.map((word, index) => {
+    if (index === 0 || index === array.length - 1 || word === "") {
+      return word;
+    } else {
+      return word + "-";
+    }
+  });
+};
 
 const joinedArray = (array) => {
     return array.join("");
