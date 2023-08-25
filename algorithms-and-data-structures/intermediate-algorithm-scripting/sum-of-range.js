@@ -6,11 +6,16 @@
 // find all the whole numbers between two params 
 // add those number to an array
 // reduce that array to get the sum 
-let numbers = []
+const x = 6;
+const y = 12;
 
-const lowNumber = Math.min(x, y):
+let numbers = [];
+
+const lowNumber = Math.min(x, y);
 const highNumber = Math.max(x,y);
 
 for (let i = lowNumber; i <= highNumber; i++) {
-  numbers.push(i)  
+  numbers.push(i);
 }
+
+
