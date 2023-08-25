@@ -4,3 +4,4 @@
 // find all the whole numbers between two params 
 // add those number to an array
 // reduce that array to get the sum 
+
