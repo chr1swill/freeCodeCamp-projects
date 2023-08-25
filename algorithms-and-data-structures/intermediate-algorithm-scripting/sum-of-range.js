@@ -17,5 +17,7 @@ const highNumber = Math.max(x,y);
 for (let i = lowNumber; i <= highNumber; i++) {
   numbers.push(i);
 }
-
+console.log(numbers)
+ 
+const sumOfNumbers = array.reduce((a,b) => a + b);
 
