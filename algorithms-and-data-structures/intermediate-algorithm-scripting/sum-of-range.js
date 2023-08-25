@@ -19,5 +19,7 @@ for (let i = lowNumber; i <= highNumber; i++) {
 }
 console.log(numbers)
  
-const sumOfNumbers = array.reduce((a,b) => a + b);
+const sumOfNumbers = numbers.reduce((a,b) => a + b);
+
+console.log(sumOfNumbers)
 
