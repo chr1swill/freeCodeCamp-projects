@@ -7,3 +7,5 @@
 //if its not push the index to different items array 
 // do the same thing checking arry2 against array1 
 // return different items array 
+
+const differentItems = [];
