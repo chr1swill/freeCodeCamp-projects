@@ -3,9 +3,15 @@
 
 // create empty array to hold all the different items 
 //starting with array1 loop though it 
-// for each index check if in array2
-//if its not push the index to different items array 
-// do the same thing checking arry2 against array1 
-// return different items array 
+//if element includes in both array do nothin
+//if element not includes and is not already in different items array push it different items 
 
 const differentItems = [];
+
+const checkMatchedInArray = (arrayToCheck, checkeeArray) => {
+  arrayToCheck.map((element) => {
+    if (checkeeArray.includes(element) && !differentItems.includes(element)) {
+      differentItems.push(element);
+    }
+  })
+}
