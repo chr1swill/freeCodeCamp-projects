@@ -6,6 +6,9 @@
 //if element includes in both array do nothin
 //if element not includes and is not already in different items array push it different items 
 
+const array1 = [1,2,3,4,5];
+const array2 = [4,5,6,7,8];
+
 const differentItems = [];
 
 const checkMatchedInArray = (arrayToCheck, checkeeArray) => {
@@ -15,9 +18,6 @@ const checkMatchedInArray = (arrayToCheck, checkeeArray) => {
     }
   })
 }
-
-const array1 = [1,2,3,4,5];
-const array2 = [4,5,6,7,8];
 
 const array1Checked = checkMatchedInArray(array1, array2);
 
