@@ -19,6 +19,8 @@ const checkMatchedInArray = (arrayToCheck, checkeeArray) => {
 const array1 = [1,2,3,4,5];
 const array2 = [4,5,6,7,8];
 
-const arraysChecked = checkMatchedInArray(array1, array2);
+const array1Checked = checkMatchedInArray(array1, array2);
+
+const array2Checked = checkMatchedInArray(array2, array1);
 
 console.log(differentItems);
