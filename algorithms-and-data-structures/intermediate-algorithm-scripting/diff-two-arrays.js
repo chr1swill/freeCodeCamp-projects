@@ -10,8 +10,15 @@ const differentItems = [];
 
 const checkMatchedInArray = (arrayToCheck, checkeeArray) => {
   arrayToCheck.map((element) => {
-    if (checkeeArray.includes(element) && !differentItems.includes(element)) {
+    if (!checkeeArray.includes(element) && !differentItems.includes(element)) {
       differentItems.push(element);
     }
   })
 }
+
+const array1 = [1,2,3,4,5];
+const array2 = [4,5,6,7,8];
+
+const arraysChecked = checkMatchedInArray(array1, array2);
+
+console.log(differentItems);
