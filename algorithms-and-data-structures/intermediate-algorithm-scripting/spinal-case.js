@@ -17,3 +17,10 @@ const trimSpace = (array) => array.map((element) => element.trim())
 
 const lowerCase = (array) => array.map((element) => element.toLowerCase())
 
+const addDashes = (array) => array.map((element, index) => {
+  if (index == array.length - 1) {
+    return element;
+  } else {
+    return element + '-';
+  }
+})
