@@ -15,4 +15,5 @@ const splitWords = (string) => string.split(/(?=[A-Z])|[-_]/);
 
 const trimSpace = (array) => array.map((element) => element.trim())
 
+const lowerCase = (array) => array.map((element) => element.toLowerCase())
 
