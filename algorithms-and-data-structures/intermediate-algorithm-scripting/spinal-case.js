@@ -24,3 +24,15 @@ const addDashes = (array) => array.map((element, index) => {
     return element + '-';
   }
 })
+
+const joinToString = (array) => array.join("");
+
+function spinalCase(string){
+  const getSplitWords = splitWords(string);
+  const getSpaceTrimmed = trimSpace(getSplitWords);
+  const getLowerCase = lowerCase(getSpaceTrimmed);
+  const getDashesAdded = addDashes(getLowerCase);
+  const getResult = joinToString(getDashesAdded);
+  
+  return getResult;
+}
